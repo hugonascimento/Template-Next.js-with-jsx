@@ -1,8 +1,18 @@
-## Template
+## Template 
 
 Template Next.js TSX
 
-## Download and How to use
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## Created with
 
 ```sh
 npx create-next-app@latest --ts
