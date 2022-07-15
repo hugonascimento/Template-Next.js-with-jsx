@@ -117,8 +117,11 @@ yarn dev
 ## These scripts refer to the different stages of developing an application:
 
 yarn dev - Runs next dev to start Next.js in development mode
+
 yarn build - Runs next build to build the application for production usage
+
 yarn start - Runs next start to start a Next.js production server
+
 yarn lint - Runs next lint to set up Next.js' built-in ESLint configuration
 
 ## NextJS?
