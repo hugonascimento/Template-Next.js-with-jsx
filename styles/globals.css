@@ -1,9 +1,25 @@
+/* Base */
 html,
-body {
+body,
+#__next {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  --custom-font-family: 'Roboto';
+  --custom-bg-color: #141414;
+  --custom-panel-color: #171717;
+  --custom-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+  --custom-color: #fff;
+  --custom-color-brand: #24b47e;
+  --custom-color-secondary: #666;
+  --custom-border: 1px solid #333;
+  --custom-border-radius: 5px;
+  --custom-spacing: 5px;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--custom-font-family);
+  background-color: var(--custom-panel-color);
+  color: var(--custom-color);
 }
 
 a {
@@ -14,3 +30,4 @@ a {
 * {
   box-sizing: border-box;
 }
+/* Base */
