@@ -1,4 +1,4 @@
-## Omniá Cosméticos
+## Template Next.js
 
 Inventory protected Routes with Next.js and TypeScript
 
