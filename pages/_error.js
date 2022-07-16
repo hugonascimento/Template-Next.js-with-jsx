@@ -1,6 +1,5 @@
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
-import { Footer } from '../src/footer';
 
 function Error({ statusCode }) {
   return (
@@ -17,7 +16,6 @@ function Error({ statusCode }) {
           <Link href="/">Clique aqui para voltar para à Página Inicial</Link>
         </p>
       </main>
-      <Footer />
     </div>
   );
 }

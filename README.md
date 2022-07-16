@@ -1,6 +1,6 @@
-## Template 
+## Omniá Cosméticos
 
-Template Next.js TSX
+Inventory protected Routes with Next.js and TypeScript
 
 ## Getting Started
 
@@ -80,6 +80,10 @@ Then open .eslintrc.json and add:
 
 Since version 11.0.0, Next.js provides an integrated ESLint experience out of the box. Add next lint as a script to package.json:
 
+## Add SWR
+
+yarn add swr
+
 ## Change Head
 
 _domument.tsx
@@ -135,3 +139,4 @@ yarn lint - Runs next lint to set up Next.js' built-in ESLint configuration
 (ISR) incremental static regeneration (uses revalidate in getStaticProps)
 
 Ңџбо Идѕсїщэлҭф
+
