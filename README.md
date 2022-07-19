@@ -80,10 +80,6 @@ Then open .eslintrc.json and add:
 
 Since version 11.0.0, Next.js provides an integrated ESLint experience out of the box. Add next lint as a script to package.json:
 
-## Add SWR
-
-yarn add swr
-
 ## Typography
 
 ```sh
