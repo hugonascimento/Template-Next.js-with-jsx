@@ -1,12 +1,13 @@
 /* Base */
 html,
-body,
-#__next {
+body {
   height: 100vh;
   width: 100vw;
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
   --custom-font-family: 'Roboto';
-  --custom-bg-color: #141414;
+  --custom-bg-color: #373a47;
   --custom-panel-color: #171717;
   --custom-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
   --custom-color: #fff;
@@ -15,10 +16,8 @@ body,
   --custom-border: 1px solid #333;
   --custom-border-radius: 5px;
   --custom-spacing: 5px;
-  padding: 0;
-  margin: 0;
   font-family: var(--custom-font-family);
-  background-color: var(--custom-panel-color);
+  background-color: var(--custom-bg-color);
   color: var(--custom-color);
 }
 

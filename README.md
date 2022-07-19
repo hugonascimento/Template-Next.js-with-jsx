@@ -1,6 +1,6 @@
-## Omniá Cosméticos
+## Template Next.js
 
-Inventory protected Routes with Next.js and TypeScript
+Template with Next.js and TypeScript
 
 ## Getting Started
 
@@ -84,11 +84,6 @@ Since version 11.0.0, Next.js provides an integrated ESLint experience out of th
 
 yarn add swr
 
-## Change Head
-
-_domument.tsx
-Add Html lang="pt-BR"
-
 ## Typography
 
 ```sh
@@ -96,9 +91,28 @@ yarn add @fontsource/roboto
 ```
 
 Add _app.tsx
+
 import "@fontsource/roboto"; 
 
 // Defaults to weight 400.
+
+## Add Reach Alert
+
+```sh
+yarn add @reach/alert
+```
+
+## Add Burger Menu
+
+```sh
+yarn add react-burger-menu
+```
+
+## Change Head
+
+_domument.tsx
+
+Add Html lang="pt-BR"
 
 ## Check errors with Lint
 
@@ -127,16 +141,3 @@ yarn build - Runs next build to build the application for production usage
 yarn start - Runs next start to start a Next.js production server
 
 yarn lint - Runs next lint to set up Next.js' built-in ESLint configuration
-
-## NextJS?
-
-λ (Server) server-side renders at runtime (uses getInitialProps or getServerSideProps)
-
-○ (Static) automatically rendered as static HTML (uses no initial props)
-
-● (SSG) automatically generated as static HTML + JSON (uses getStaticProps)
-
-(ISR) incremental static regeneration (uses revalidate in getStaticProps)
-
-Ңџбо Идѕсїщэлҭф
-

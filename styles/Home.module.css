@@ -1,7 +1,7 @@
 /* Base */
 .container {
   padding: 0 2rem;
-  background-color: var(--custom-bg-color);
+  background-color: var(--custom-panel-color);
 }
 
 .main {
@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 -24px;
+  margin: 0 0 -30px;
 }
 
 .title {
@@ -36,12 +36,52 @@
 /* Footer */
 .footer {
   border-top: var(--custom-border);
-  background-color: var(--custom-panel-color);
+  background-color: var(--custom-bg-color);
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 30px;
 }
 /* Footer */
+
+/* Menu Desktop */
+.MenuDesktop {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 40px;
+  border-top: var(--custom-border);
+  background-color: var(--custom-bg-color);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.MenuDesktop a:hover {
+  background-color: #41444e;
+}
+
+.MenuDesktopExit {
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 60px;
+  cursor: pointer;
+}
+.MenuDesktopExit a:hover {
+  background-color: #41444e !important;
+}
+@media (max-width: 719px) {
+  .MenuDesktop {
+    display: none !important;
+  }
+}

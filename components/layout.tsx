@@ -1,16 +1,20 @@
-//import useSWR from 'swr';
-//import Navbar from './navbar';
+import { useRouter } from 'next/router';
+import Navbar from './navbar';
 import Footer from './footer';
 
 export default function Layout({ children }: { children: any }) {
-  //const { data, error } = useSWR('/api/navigation', fetcher);
-
-  //if (error) return <div>Failed to load</div>;
-  //if (!data) return <div>Loading...</div>;
+  /* Show Navbar only this links */
+  const router = useRouter();
+  const showHeader =
+    router.pathname === '/protected' ||
+    router.pathname === '/about' ||
+    router.pathname === '/profile'
+      ? true
+      : false;
 
   return (
     <>
-      {/* <Navbar links={data.links} /> */}
+      {showHeader && <Navbar />}
       <main>{children}</main>
       <Footer />
     </>
